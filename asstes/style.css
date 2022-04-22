@@ -1,0 +1,102 @@
+
+/* UNIVERSAL STYLING FOR ALL CARDS */
+
+body {
+    background: radial-gradient(circle, rgba(255,196,0,1) 0%, rgba(255,0,0,1) 100%);
+}
+
+.container{
+    margin-top: 100px !important;
+}
+
+.card {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: transform .3s;
+}
+
+/* CARD ANIMATION */
+
+
+.card:hover {
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+
+/* CARD ANIMATION END */
+
+
+.text1 {
+    font-size: 13px;
+    color: #868686;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+   color: white;
+}
+
+.info {
+    line-height: 17px;
+}
+
+/* CARD CDA COLOR */ 
+
+.cost span{
+    color: #28a745;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.shoe {
+    background: #28a745;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* CARD CDA COLOR ENDS */ 
+
+
+/* IMG SIZE SET */
+
+img {
+    border-radius: 20px;
+    width: 340px;
+}
+
+/* IMG SIZE SET END */
+
+/* BRAKEPOINTS */
+
+@media (max-width:1200px) {
+    img {
+        width: 200px;
+    }
+}
+
+@media (max-width:767px) {
+    img {
+        width: 400px;
+    }
+}
+
+@media (max-width:460px) {
+    img {
+        width: 250px;
+    }
+}
+
+@media (max-width:300px) {
+    img {
+        width: 150px;
+    }
+}
+
+
+
+/* BRAKEPOINTS END */
